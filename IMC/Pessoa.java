@@ -7,7 +7,7 @@ public class Pessoa{
     private double imcPessoa;
 
     //construtor da classe pessoa
-    public Pessoa(String nomePessoa, double pesoPessoa, double alturaPessoa){
+    public Pessoa(String nomePessoa, double pesoPessoa, double alturaPessoa){ // apenas o construtor e o método que aparecem
         this.nomePessoa = nomePessoa;
         this.pesoPessoa = pesoPessoa;
         this.alturaPessoa = alturaPessoa;

@@ -9,7 +9,7 @@ public class ImcPessoaValoresEntradas{
         scanner.nextLine();
         System.out.println("Digite a altura(m): ");
         double altura = scanner.nextDouble();
-        Pessoa pessoa = new Pessoa(nome, peso, altura);
+        Pessoa pessoa = new Pessoa(nome, peso, altura); //Pesssoa é a classe, new Pessoa (nome,peso...) é o construtor 
         pessoa.moostrarImcPessoa();
         scanner.close();
     }

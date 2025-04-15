@@ -10,7 +10,7 @@ public class ImcPessoaValoresEntradas{
         float peso = scanner.nextFloat();
         scanner.nextLine();
 
-        System.out.println("Digite a altura(m): "); // digitar com vírgula, pois com ponto ele não interpreta
+        System.out.println("Digite a altura(m):"); // digitar com vírgula, pois com ponto ele não interpreta
         float altura = scanner.nextFloat();
         scanner.nextLine();
 

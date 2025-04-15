@@ -24,9 +24,9 @@ public class Imc {
         float imc = this.resultadoImc;
         String mensagem;
         if (imc < 18.2) {
-            mensagem ="Você está com baixo peso. É recomendado procurar um médico para avaliação criteriosa do resultado. Pode indicar um estado de consumo do organismo, com poucas reservas riscos associados";
+            mensagem ="Você está com baixo peso. É recomendado procurar um médico para avaliação criteriosa do resultado. Pode indicar um estado de consumo do organismo, com poucas reservas riscos associados. ";
         } else if (imc >= 18.5 && imc <= 24.9) {
-            mensagem ="Você está com peso adequado.  Tudo indica que está tudo bem, mas é importante avaliar outros parâmetros da composição corporal, para compreender se estão dentro do recomendado. Algumas pessoas apresentam IMC dentro da normalidade, mas têm circunferência abdominal maior que a recomendada e/ou quantidade de massa gorda acima do ideal";
+            mensagem ="Você está com peso adequado.  Tudo indica que está tudo bem, mas é importante avaliar outros parâmetros da composição corporal, para compreender se estão dentro do recomendado. Algumas pessoas apresentam IMC dentro da normalidade, mas têm circunferência abdominal maior que a recomendada e/ou quantidade de massa gorda acima do ideal. ";
         } else if (imc >= 25 && imc <= 29.9) {
             mensagem = "Você está com sobrepeso. . O sobrepeso está associado ao risco de doenças como diabetes e hipertensão. Então, atenção! Consulte um médico e reveja hábitos para reverter o quadro. Também é importante avaliar outros parâmetros, como a circunferência abdominal.";
         } else if (imc >= 30 && imc <= 34.9) {

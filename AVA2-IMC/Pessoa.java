@@ -11,7 +11,8 @@ public class Pessoa{
         this.pesoPessoa = pesoPessoa;
         this.alturaPessoa = alturaPessoa;
     }
-    //acessar os atributos
+
+    //acessar os atributos, facilitando pra classe IMC 
     public String getNome(){
             return this.nomePessoa;
         }
